@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.android.lec49_petmission01">
+
+    <!-- SMS 보내기 권한 요청 -->
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+
+    <!-- 앱이 실행괴는 기기가 안드로이드 OS 8.0(API 26)Oreo에서만
+          SMS를 보낼 때 READ_PHONE_STATE 권한을 추가로 요청 해야 한다 : 안드로이드 버그-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

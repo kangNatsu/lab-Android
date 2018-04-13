@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<StationAdresTelno>
+    <list_total_count>51</list_total_count>
+    <RESULT>
+        <CODE>INFO-000</CODE>
+        <MESSAGE>정상 처리되었습니다</MESSAGE>
+    </RESULT>
+    <row>
+        <LINE>2호선</LINE>
+        <STATN_NM>시청</STATN_NM>
+        <ADRES>서울 중구 서소문동 27</ADRES>
+        <RDNMADR>서울특별시 중구 서소문로 지하 127 (서소문동) (2호선 시청역)</RDNMADR>
+        <TELNO>6110-2011</TELNO>
+    </row>
+    <row>
+        <LINE>2호선</LINE>
+        <STATN_NM>을지로입구</STATN_NM>
+        <ADRES>서울 중구 을지로1가 89-1</ADRES>
+        <RDNMADR>서울특별시 중구 을지로 지하 42 (을지입구역)</RDNMADR>
+        <TELNO>6110-2021</TELNO>
+    </row>
+    <row>
+        <LINE>2호선</LINE>
+        <STATN_NM>을지로3가</STATN_NM>
+        <ADRES>서울 중구 을지로3가 70-1</ADRES>
+        <RDNMADR>서울특별시 중구 을지로 지하 106 (2호선 을지로3가역)</RDNMADR>
+        <TELNO>6110-2031</TELNO>
+    </row>
+    <row>
+        <LINE>2호선</LINE>
+        <STATN_NM>을지로4가</STATN_NM>
+        <ADRES>서울 중구 을지로4가 261-1</ADRES>
+        <RDNMADR>서울특별시 중구 을지로 지하 178 (2호선 을지로4가역)</RDNMADR>
+        <TELNO>6110-2041</TELNO>
+    </row>
+    <row>
+        <LINE>2호선</LINE>
+        <STATN_NM>동대문역사문화공원</STATN_NM>
+        <ADRES>서울 중구 을지로7가 1</ADRES>
+        <RDNMADR>서울특별시 중구 을지로 지하 279 (2호선 동대문역역사문화공원역)</RDNMADR>
+        <TELNO>6110-2051</TELNO>
+    </row>
+</StationAdresTelno>

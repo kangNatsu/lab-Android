@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lec_HWFrag</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+<string-array name="image_ansdroid">
+    <item>android_cupcake</item>
+    <item>android_donut</item>
+    <item>androis_eclair</item>
+    <item>ansdroid_froyo</item>
+
+
+</string-array>
+
+
+</resources>

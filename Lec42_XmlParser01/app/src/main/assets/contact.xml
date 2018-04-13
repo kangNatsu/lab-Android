@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--  최상위 element,
+      태그 (파일 이름 ,<이름>) 은 만들고 싶은 대로 만들어도 무관,
+
+-->
+<contacts>
+    <person>
+        <name>홍길동</name>
+        <phone>010-1234-3214</phone>
+    </person>
+    <person>
+        <name>다자이</name>
+        <phone>010-0429-0616</phone>
+    </person>
+    <person>
+        <name>쮸야</name>
+        <phone>010-2543-0616</phone>
+    </person>
+
+</contacts>
+
+    <!-- 동기화 시킨다
+         :: 연락처를 서버와 기기가 주고 받을때 서버를 옮길수는 없으니 위와 같이 text 구조로 주고 받는 것
+            xml, json 과같은 파일 형식이 사용이 된다
+     -->

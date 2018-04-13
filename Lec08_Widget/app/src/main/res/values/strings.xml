@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lec08_Widget</string>
+    <string name="sms_radiogroup_constraintlayout"><![CDATA[SMS 수신 거부부 /> </RadioGroup> </ConstraintLayout>]]></string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lec_OrderProgram</string>
+
+    <string name="Americano"></string>
+    <string name="Latte"></string>
+    <string name="Tea"></string>
+
+    <string-array name="Coffee_size">
+
+        <item>Short</item>
+        <item>Tall</item>
+        <item>Grande</item>
+        <item>Venti</item>
+
+
+    </string-array>
+
+</resources>

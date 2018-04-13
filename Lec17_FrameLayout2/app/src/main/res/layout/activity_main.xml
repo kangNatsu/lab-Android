@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.android.lec17_framelayout.MainActivity">
+
+    <ImageView
+        android:id="@+id/andkiket"
+        android:onClick="changeImage"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:visibility="visible"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        app:srcCompat="@drawable/android_4_4_kitkat" />
+
+
+    <ImageView
+        android:id="@+id/andLoli"
+        android:onClick="changeImage"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/android_5_0_lollipop" />
+
+    <ImageView
+        android:id="@+id/Logetaa"
+        android:onClick="changeImage"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/cappuccino" />
+</FrameLayout>

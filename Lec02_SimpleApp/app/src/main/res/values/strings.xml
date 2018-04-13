@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lec02_SimpleApp</string>
+    <string name="hello">Hello World!</string>
+</resources>

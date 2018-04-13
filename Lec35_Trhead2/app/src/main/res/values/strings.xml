@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lec35_Trhead2</string>
+    <string name="msg01">Hello, Android</string>
+    <string name="msg02"> 안녕, 안드로이드!</string>
+</resources>

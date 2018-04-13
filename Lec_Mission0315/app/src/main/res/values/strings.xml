@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Lec_CoffeeOrderProgram</string>
+
+
+    <!-- 커피 종류증의 이름을 정의하는 문자열 -->
+    <string name="Americano">AMERICANO</string>
+    <string name="Latte">LATTE</string>
+    <string name="Mocha">MOCHA</string>
+
+
+    <!-- 결제 방법 문자열 정의 -->
+    <string name="CASH">CASH</string>
+    <string name="CREDIT_CARD">CREDIT CARD</string>
+    <string name="POINT">POINT</string>
+    <string name="COUPON">COUPON</string>
+
+    <!-- 버튼 문자열 -->
+    <string name="btn_finish">FINISH ORDER</string>
+
+
+    <!-- 커피 사이즈를 정의하는 문자열 배열 -->
+    <string-array name="bever_size">
+        <item>Short</item>
+        <item>Tall</item>
+        <item>Grande</item>
+        <item>Venti</item>
+    </string-array>
+
+
+</resources>

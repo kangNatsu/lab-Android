@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.android.lec05_linearlayout.MainActivity">
+
+    <!-- xml, html 의 주석 열때, 태그 중간에는 넣으면 안된다,
+    닫는 코드 -->
+
+    <!--
+    LinearLayout : 화면에 View(UI)들을 직선으로 배치하는 레이아웃
+           -vertical : 위에서 아래로 (수직 방향) 배치
+           -horizontal : 왼쪽에서 오른쪽으로 (수평방향) 배치
+           -->
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:padding="15dp"
+        android:layout_margin="16dp"
+        />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="16dp"
+        android:text="Button" />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:onClick="onButtonClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnh1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="A"></Button>
+
+        <Button
+            android:id="@+id/btnh2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+
+            android:text="AB" />
+
+        <Button
+            android:id="@+id/btnh3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="ABCEFGH" />
+    </LinearLayout>
+
+</LinearLayout>
+

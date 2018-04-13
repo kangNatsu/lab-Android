@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lec09_Widget02</string>
+
+    <!--
+    문자열들의 배열을 정의
+    -->
+    <string-array name="android_versions">
+
+        <item>Oreo</item>
+        <item>Nugat</item>
+        <item>Marshmallow</item>
+        <item>Lolipop</item>
+        <item>Kitkat</item>
+        <item>Jellybean</item>
+
+    </string-array>
+
+</resources>

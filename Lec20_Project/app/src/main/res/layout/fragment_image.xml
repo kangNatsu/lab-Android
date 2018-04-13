@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.android.lec20_project.ImageFragment">
+
+
+    <ImageView
+        android:id="@+id/cupcake"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/android_1_5_cupcake" />
+
+    <ImageView
+        android:id="@+id/donut"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/android_1_6_donut" />
+
+    <ImageView
+        android:id="@+id/eclair"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/android_2_0_eclair" />
+
+    <ImageView
+        android:id="@+id/froyo"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/android_2_2_froyo" />
+
+</FrameLayout>
