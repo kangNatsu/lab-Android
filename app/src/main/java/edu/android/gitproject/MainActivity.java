@@ -3,7 +3,7 @@ package edu.android.gitproject;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
-impory android.widget.Button;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
